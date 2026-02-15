@@ -1,0 +1,222 @@
+%-------------------------
+% Resume in Latex
+% Author : Punya Jain
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\hypersetup{
+    pdftitle={Punya Jain - Full Stack Developer AI Agent Builder Resume},
+    pdfauthor={Punya Jain},
+    pdfsubject={Resume - Full Stack Developer, AI Engineer, Software Engineer},
+    pdfkeywords={Full Stack Developer, AI Agent Builder, React, Next.js, Node.js, TypeScript, Python, MongoDB, PostgreSQL, OpenAI, LangChain, Machine Learning, Artificial Intelligence, GenAI, Software Engineer, Frontend Developer, Backend Developer, MERN Stack, AI Agents, Large Language Models, LLM, REST API, Microservices, Cloud Computing, Git, Agile, JavaScript, Express, Tailwind CSS, Framer Motion, Prisma ORM, Data Structures, Algorithms, Web Development, Software Development, Computer Science, RAG, Retrieval Augmented Generation, Gmail API, API Integration, Database Migration, Responsive Design, UI/UX, Codeforces, Competitive Programming, Freelance Developer, Startup Experience, Remote Work},
+    pdfproducer={LaTeX},
+    pdfcreator={pdflatex}
+}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Punya Jain} \\ \vspace{2pt}
+    \small New Delhi, India $|$ 8882488639 $|$ \href{mailto:punya01155@gmail.com}{punya01155@gmail.com} $|$ 
+    \href{https://www.linkedin.com/in/punya-jain-40ab8b2a6/}{LinkedIn} $|$ 
+    \href{https://github.com/punyajain1}{GitHub} $|$ 
+    \href{https://x.com/PunyaJain01}{X} $|$ 
+    \href{https://www.jainsahab.tech/}{Portfolio}
+\end{center}
+
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {JSS Academy of Technical Education}{Noida, Uttar Pradesh}
+      {Bachelor of Technology in Computer Science Engineering; CGPA: 8.00}{Oct. 2023 -- Aug. 2027}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Frontend Developer -- Freelance}{June 2025 -- July 2025}
+      {Starportal (Startup)}{Remote}
+      \resumeItemListStart
+        \resumeItem{Developed scalable frontend systems using React and TypeScript with AI-integrated dashboards}
+\resumeItem{Built reusable UI components and optimized rendering performance}
+\resumeItem{Collaborated with backend teams to integrate distributed APIs and automation pipelines}
+
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Backend Developer -- Freelance}{August 2025}
+      {Database Migration Project}{Remote}
+      \resumeItemListStart
+        \resumeItem{Migrated production databases using Prisma ORM with zero data loss}
+\resumeItem{Optimized backend services supporting analytics and AI workloads}
+\resumeItem{Designed monitoring and rollback mechanisms for system reliability}
+
+    \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+{\textbf{\href{https://github.com/punyajain1/JOB_SCRAPPER_TelegramBot}{AI Job Scraper \& Resume Optimization Bot}} $|$ \emph{N8N, Python, Flask, PostgreSQL, Automation}}{2026}
+\resumeItemListStart
+  \resumeItem{Built distributed job aggregation system scraping LinkedIn, Indeed, Glassdoor, Google Jobs, Naukri, ZipRecruiter, and Internshala}
+  \resumeItem{Designed workflow orchestration using n8n and Telegram API for conversational user interaction and automation}
+  \resumeItem{Implemented LLM-powered resume parsing, semantic skill extraction, and AI job matching engine}
+  \resumeItem{Developed automated CV tailoring system generating optimized resumes for top role matches}
+\resumeItemListEnd
+
+      \resumeProjectHeading
+{\textbf{\href{https://github.com/punyajain1/Intelliguide}{Intelliguide -- AI-Powered CodeForces Profile Analyzer}} $|$ \emph{Next.js, TypeScript, MongoDB, OpenAI SDK}}{2025}
+\resumeItemListStart
+  \resumeItem{Built LLM-powered performance analysis system serving 600+ users with personalized learning recommendations}
+  \resumeItem{Designed prompt-engineered evaluation pipelines integrating Codeforces and OpenAI APIs}
+  \resumeItem{Developed scalable full-stack architecture with optimized APIs and responsive UI components}
+  \resumeItem{Implemented data-driven weakness detection and adaptive improvement roadmaps}
+\resumeItemListEnd
+
+      \resumeProjectHeading
+{\textbf{\href{https://github.com/punyajain1/AI_Gmail_Agent}{Autonomous AI Email Agent}} $|$ \emph{Node.js, TypeScript, OpenAI, Gmail API, LangChain}}{2025}
+\resumeItemListStart
+  \resumeItem{Developed autonomous LLM-based agent for email classification, prioritization, and response generation}
+\resumeItem{Implemented tool-calling and prompt-engineered reasoning pipelines for multi-step decision making}
+\resumeItem{Reduced manual email handling time by 70\% using agent-driven workflow automation}
+\resumeItemListEnd
+\resumeProjectHeading
+{\textbf{\href{https://github.com/punyajain1/AI_RAG_AGENT}{Agentic RAG Document Intelligence System}} $|$ \emph{Python, LangChain, OpenAI, Vector Search}}{2025}
+\resumeItemListStart
+  \resumeItem{Built agentic Retrieval-Augmented Generation system using embeddings and vector-based retrieval pipelines}
+  \resumeItem{Implemented optimized document ingestion, chunking, indexing, and semantic search workflows}
+  \resumeItem{Designed low-latency contextual reasoning pipeline for accurate multi-document question answering}
+\resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, C, TypeScript, JavaScript, Python} \\
+     \textbf{Frontend}{: React.js, Next.js, Tailwind CSS, Framer Motion} \\
+     \textbf{Backend}{: Node.js, Express, REST APIs, Microservices, System Design} \\
+     \textbf{Databases}{: MongoDB, PostgreSQL, MySQL, Prisma, Mongoose} \\
+     \textbf{AI Systems}{: LLMs, Generative AI, RAG, Prompt Engineering, NLP, Embeddings, AI Agents} \\
+     \textbf{DevOps \& Tools}{: Git, Docker, N8N, CI/CD, OpenAI API, LangChain, Hugging Face}
+    }}
+ \end{itemize}
+
+
+
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements \& Certifications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Product Engineering}{: Designed and deployed multiple production-grade systems with 400+ users} \\
+     \textbf{Certifications}{: Hugging Face Agents Course, Generative AI Fundamentals} \\
+     \textbf{Technical Excellence}{: Built end-to-end platforms combining distributed systems and AI pipelines}
+    }}
+ \end{itemize}
+
+
+
+
+%-------------------------------------------
+\end{document}
